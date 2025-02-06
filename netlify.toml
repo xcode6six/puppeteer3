@@ -1,4 +1,6 @@
-
 [build]
-  publish = "public/"
-  functions = "functions/"
+  command = "npm run build"  # Jika Anda memiliki script build, jika tidak bisa diabaikan
+  functions = "netlify/functions"
+
+[dev]
+  functions = "netlify/functions"  # Lokasi fungsi serverless Anda
