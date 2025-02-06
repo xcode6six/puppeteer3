@@ -1,5 +1,4 @@
 [build]
-  command = "npm run build"  # Jika Anda memiliki script build, jika tidak bisa diabaikan
   functions = "netlify/functions"
 
 [dev]
